@@ -1,13 +1,15 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+import {ErrorRequestHandler, RequestHandler} from 'express-serve-static-core';
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 
-var app = express();
+const indexRouter = require('./routes');
+const usersRouter = require('./routes/users');
+
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views')); //设置视图目录:当前目录的views
@@ -21,11 +23,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter); //当用户访问根目录时，就使用indexRouter（点进去看看）
 app.use('/users', usersRouter); //当用户访问/users时，就使用usersRouter（点进去看看）
+console.log(`this is app.ts`);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
-});
+} as RequestHandler);
 
 // error handler
 app.use(function(err, req, res, next) {
@@ -36,6 +39,7 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
-});
+  next()
+} as ErrorRequestHandler);
 
 module.exports = app;
