@@ -1,4 +1,4 @@
-import {ErrorRequestHandler, RequestHandler} from 'express-serve-static-core';
+import {ErrorRequestHandler, RequestHandler} from 'express';
 
 const createError = require('http-errors');
 const express = require('express');

@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f8c0d5b-aeec-4685-91cc-883d0a6f3aff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../express-demo-2/.idea/express-demo-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-demo-2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-demo-2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../express-demo-2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +59,9 @@
       <workItem from="1608822576387" duration="4209000" />
       <workItem from="1608904233829" duration="3438000" />
       <workItem from="1608907762034" duration="512000" />
-      <workItem from="1608908283380" duration="3270000" />
+      <workItem from="1608908283380" duration="4335000" />
+      <workItem from="1608973917030" duration="370000" />
+      <workItem from="1608974352174" duration="197000" />
     </task>
     <servers />
   </component>
